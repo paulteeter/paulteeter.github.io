@@ -3,7 +3,7 @@ layout: page
 title: About me
 subtitle: All the details you don't care to know
 ---
-![Paul Teeter](/assets/img/IMG_20190930_120204.jpg)
+![Paul Teeter](/assets/img/IMG_20190930_120204.jpg, size=400x400)
 I grew up in a rural town in northwest Rhode Island. Life in a small town was exactly as you would expect: not much to do, a few, select friends that could double as family, and a real desire to leave and see the world.
 Well, as with most small-town kids, I did just that.
 After high school, I decided to try something new. Growing up in the church all my life, I spent many hours in a soundbooth -- pluggin in microphones, recording services, running the console for weekly services.
