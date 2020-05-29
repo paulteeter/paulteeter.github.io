@@ -1,9 +1,11 @@
 ---
 layout: post
-title: Welcome to Thunderdome
+title: Welcome To Thunderdome
+subtitle: My Journey begins now
+gh-repo: paulteeter/
+gh-badge: [star, fork, follow]
+tags: [beginning]
+comments: true
 ---
-
-# Welcome to Thunderdome
-**My journey begins now**
 
 This will soon be populated with my first post about my start of LambdaSchool
