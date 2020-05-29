@@ -1,16 +1,19 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: All the details you don't care to know
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+I grew up in a rural town in northwest Rhode Island. Life in a small town was exactly as you would expect: not much to do, a few, select friends that could double as family, and a real desire to leave and see the world.
+Well, as with most small-town kids, I did just that.
+After high school, I decided to try something new. Growing up in the church all my life, I spent many hours in a soundbooth -- pluggin in microphones, recording services, running the console for weekly services.
+I moved to southwest Missouri and began travelling with a touring band as a Front-of-House Engineer. **IT WAS AMAZING**. Nothing could have prepared me for being on the road for 200 shows per year. The comraderie and extreme highs/lows I experienced will last with me for the rest of my life.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+Of course, all good things must come to an end. The band members (some, close friends from my childhood) had decided to finally pursue other goals, and that brought me back to NW RI. Enter my wife.
 
-What else do you need?
+I got swept off my feet, fully in love with this girl.
+She is my everything.
 
-### my history
+Now, 8 years and 4 kids later, I have decided my availability for them is of utmost importance. This brought me to LambdaSchool, and Data Science.
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+Soon we will be moving to a suburb of Atlanta, surely a whole new experience.
