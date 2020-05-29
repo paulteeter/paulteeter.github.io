@@ -3,8 +3,7 @@ layout: page
 title: About me
 subtitle: All the details you don't care to know
 ---
-![](assets/img/IMG_20190930_120204.jpg)
-<img src="/assets/img/IMG_20190930_120204.jpg" width="400" height="400>
+<img src="/assets/img/IMG_20190930_120204.jpg" alt="photo" width="400" height="400">
 
 I grew up in a rural town in northwest Rhode Island. Life in a small town was exactly as you would expect: not much to do, a few, select friends that could double as family, and a real desire to leave and see the world.
 Well, as with most small-town kids, I did just that.
