@@ -7,8 +7,8 @@ gh-badge: [star, fork, follow]
 tags: [beginning]
 comments: true
 ---
-img: 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Manchester_Airport_Departure_Sign.jpg/1280px-Manchester_Airport_Departure_Sign.jpg" width='500' height='350' />
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Manchester_Airport_Departure_Sign.jpg/1280px-Manchester_Airport_Departure_Sign.jpg" width='800' />
 
 This will soon be populated with my first post about my start of LambdaSchool
 
