@@ -33,10 +33,10 @@ The list of airports after 9/11 did not directly copy from the previous list, so
 
  <div class="row">
   <div class="column">
-    <img src="https://pasteboard.co/JevVydG.png" alt="Pre 9/11 Cities" style="width:100%">
+    <img src="/assets/img/pre911cities.png" alt="Pre 9/11 Cities" style="width:100%">
   </div>
   <div class="column">
-    <img src="https://pasteboard.co/JevVZbb.png" alt="Post 9/11 Cities" style="width:100%">
+    <img src="/assets/img/post911cities.png" alt="Post 9/11 Cities" style="width:100%">
   </div>
 </div> 
 
