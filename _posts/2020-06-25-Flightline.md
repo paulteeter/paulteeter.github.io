@@ -19,11 +19,12 @@ Despite this annoying factor, a large number of domestic flights occur each year
 					<font size="1.5"><i><figcaption>PHOTO: Manchester Airport Departure Sign (photo via wikimedia)</figcaption></i></font>
 </figure>
 
-Using data from the <a href="http://academictorrents.com/details/a2ccf94bbb4af222bf8e69dad60a68a29f310d9a">US Census Bureau</a>z about US Domestic Flights between 1990 and 2009, I explored overall trends in flight data, as well as the specific effect of the events of September 11, 2001.
+Using data from the <a href="http://academictorrents.com/details/a2ccf94bbb4af222bf8e69dad60a68a29f310d9a">US Census Bureau</a> about US Domestic Flights between 1990 and 2009, I explored overall trends in flight data, as well as the specific effect of the events of September 11, 2001.
 
-The questions I set out to answer seemed relatively easy to acquire, namely: How was airtravel affected by the events of 9/11.
+The questions I set out to answer seemed relatively easy to acquire, namely: <i>How was airtravel affected by the events of 9/11?
+Were total passenger and flight amounts curtailed in the aftermath of September 11? Which cities were the most affected?</i>
 
-While the data was extensive and complete, it was also quite challenging to manipulate to yield usable results.
+While the data was extensive and complete, it was also quite challenging to manipulate to yield usable results. Filtering the data by date while still preserving the other datapoints was extremely challenging, requiring the help of many hands (shoutout to Brandon Mulas, Jacob Padgett, and Dustin Stringer for the help!).
 
 
-<iframe width="700" height="400" frameborder="0" scrolling="no" src="//plotly.com/~paul.teeter/1.embed"></iframe>
+<iframe width="600" height="300" frameborder="0" scrolling="no" src="//plotly.com/~paul.teeter/1.embed"></iframe>
