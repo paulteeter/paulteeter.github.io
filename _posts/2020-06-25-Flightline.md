@@ -22,9 +22,24 @@ Despite this annoying factor, a large number of domestic flights occur each year
 Using data from the <a href="http://academictorrents.com/details/a2ccf94bbb4af222bf8e69dad60a68a29f310d9a">US Census Bureau</a> about US Domestic Flights between 1990 and 2009, I explored overall trends in flight data, as well as the specific effect of the events of September 11, 2001.
 
 The questions I set out to answer seemed relatively easy to acquire, namely: <i>How was airtravel affected by the events of 9/11?
-Were total passenger and flight amounts curtailed in the aftermath of September 11? Which cities were the most affected?</i>
+Were total passenger and flight amounts curtailed in the aftermath of September 11? Which cities were the most affected?</i> 
+However, the task proved to be more difficult than I expected.
 
-While the data was extensive and complete, it was also quite challenging to manipulate to yield usable results. Filtering the data by date while still preserving the other datapoints was extremely challenging, requiring the help of many hands. <figure><font size=3><i>(shoutout to Brandon Mulas, Jacob Padgett, and Dustin Stringer for the help!)</i></font></figure>
+While the data was extensive and complete, it was also quite challenging to manipulate to yield usable results. Filtering the data by date while still preserving the other datapoints was extremely challenging, requiring the help of many hands<i>(shoutout to Brandon Mulas, Jacob Padgett, and Dustin Stringer for the help!)</i>.
+
+The first endeavor was to get a list of the Top 20 cities based on total flights. There are many metrics with which airports are measured: total flights, total passenger load, commercial cargo tonnage, etc. For this case, I wanted to find which airports had the highest amount of total flights of origination. This gave me a list of 20 cities based on their total flights occurring between January, 1990 and September, 2001, and also another list of 20 cities post-9/11.
+Since airports change based on their flight availability, scheduling, etc, year after year, the total metrics changed. 
+The list of airports after 9/11 did not directly copy from the previous list, so in order to do a comparison, I kept the list of 20 airports from BEFORE Sept 11 and compared how they changed afterwards.
+
+ <div class="row">
+  <div class="column">
+    <img src="https://pasteboard.co/JevVydG.png" alt="Pre 9/11 Cities" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://pasteboard.co/JevVZbb.png" alt="Post 9/11 Cities" style="width:100%">
+  </div>
+</div> 
+
 
 
 <iframe width="900" height="460" frameborder="0" scrolling="no" src="//plotly.com/~paul.teeter/1.embed"></iframe>
