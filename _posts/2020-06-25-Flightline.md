@@ -41,5 +41,23 @@ The list of airports after 9/11 did not directly copy from the previous list, so
 </div> 
 
 
+<br />
+<br />
+__________________
+<br />
+<div id="wrapper">
+
+<div class="container">
+
+ <img class="image" src="/assets/img/pre911cities.png" alt="Interpret1" width="218" height="234">
+ <img class="image" src="/assets/img/post911cities.png" alt="Interpret1" width="218" height="234">
+ 
+</div>
+
+
+
+</div>
+
+
 
 <iframe width="900" height="460" frameborder="0" scrolling="no" src="//plotly.com/~paul.teeter/1.embed"></iframe>
