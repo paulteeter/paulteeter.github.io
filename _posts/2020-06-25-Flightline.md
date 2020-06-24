@@ -16,7 +16,7 @@ Despite this obviously increasing factor, a large number of domestic flights occ
 <figure>
 		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Manchester_Airport_Departure_Sign.jpg/1280px-Manchester_Airport_Departure_Sign.jpg" width='800' alt="Airport Signage " title="Airport Signage" width="630" height="355">
 										
-					<font size="8"><i><figcaption>PHOTO: Manchester Airport Departure Sign (photo via wikimedia)</figcaption></i></font>
+					<font size="1"><i><figcaption>PHOTO: Manchester Airport Departure Sign (photo via wikimedia)</figcaption></i></font>
 </figure>
 
 This will soon be populated with my first post about my start of LambdaSchool
