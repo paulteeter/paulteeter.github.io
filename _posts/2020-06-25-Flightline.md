@@ -27,4 +27,4 @@ Were total passenger and flight amounts curtailed in the aftermath of September 
 While the data was extensive and complete, it was also quite challenging to manipulate to yield usable results. Filtering the data by date while still preserving the other datapoints was extremely challenging, requiring the help of many hands. <font size=3><i>(shoutout to Brandon Mulas, Jacob Padgett, and Dustin Stringer for the help!)</i></font>
 
 
-<iframe frameborder="0" scrolling="no" src="//plotly.com/~paul.teeter/1.embed"></iframe>
+<iframe width="900" height="450" frameborder="0" scrolling="no" src="//plotly.com/~paul.teeter/1.embed"></iframe>
