@@ -31,31 +31,11 @@ The first endeavor was to get a list of the Top 20 cities based on total flights
 Since airports change based on their flight availability, scheduling, etc, year after year, the total metrics changed. 
 The list of airports after 9/11 did not directly copy from the previous list, so in order to do a comparison, I kept the list of 20 airports from BEFORE Sept 11 and compared how they changed afterwards.
 
- <div class="row">
-  <div class="column">
-    <img src="/assets/img/pre911cities.png" alt="Pre 9/11 Cities" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="/assets/img/post911cities.png" alt="Post 9/11 Cities" style="width:100%">
-  </div>
-</div> 
-
-
-<br />
-<br />
-__________________
-<br />
 <div id="wrapper">
-
-<div class="container">
-
- <img class="image" src="/assets/img/pre911cities.png" alt="Interpret1" width="218" height="234">
- <img class="image" src="/assets/img/post911cities.png" alt="Interpret1" width="218" height="234">
- 
-</div>
-
-
-
+ <div class="container">
+	<img class="image" src="/assets/img/pre911cities.png" alt="Interpret1" width="250" height="600">
+ 	<img class="image" src="/assets/img/post911cities.png" alt="Interpret1" width="250" height="600">
+ </div>
 </div>
 
 
