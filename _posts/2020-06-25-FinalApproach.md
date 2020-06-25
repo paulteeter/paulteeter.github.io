@@ -26,11 +26,11 @@ The questions I set out to answer seemed relatively easy to acquire, namely: <i>
 Were total passenger and flight amounts curtailed in the aftermath of September 11? Which cities were the most affected?</i> 
 However, the task proved to be more difficult than I expected.
 
-While the data was extensive and complete, it was also quite challenging to manipulate to yield usable results. Filtering the data by date while still preserving the other datapoints was extremely challenging, requiring the help of many hands<i>(shoutout to Brandon Mulas, Jacob Padgett, and Dustin Stringer for the help!)</i>.
+While the data was extensive and complete, it was also quite challenging to manipulate to yield usable results. Filtering the data by date while still preserving the other datapoints was extremely challenging, requiring the help of many hands <i>(shoutout to Brandon Mulas, Jacob Padgett, and Dustin Stringer for the help!)</i>.
 
 The first endeavor was to get a list of the Top 20 cities based on total flights. There are many metrics with which airports are measured: total flights, total passenger load, commercial cargo tonnage, etc. For this case, I wanted to find which airports had the highest amount of total flights of origination. This gave me a list of 20 cities based on their total flights occurring between January, 1990 and September, 2001, and also another list of 20 cities post-9/11.
-Since airports change based on their flight availability, scheduling, etc year after year, the differences eperienced were not surprising. 
-The list of airports after 9/11 did not directly copy from the previous list, so in order to do a comparison, I kept the list of 20 airports from BEFORE Sept 11 and compared how they changed afterwards.
+Since airport rankings change based on their flight availability, scheduling, etc year after year, the differences experienced were not surprising. 
+The list of airports after 9/11 did not directly mirror the previous list, so in order to do a comparison, I kept the list of 20 airports from BEFORE Sept 11 and compared how they changed afterwards.
 
 <br />
 <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pre 9/11 Top 20 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Post 9/11 Top 20</h4>
@@ -41,18 +41,18 @@ The list of airports after 9/11 did not directly copy from the previous list, so
  </div>
 </div>
 
-From the information available, it is not explicitly obvious that the events of September 11 had any direct bearing on total travel trends, except an interesting find when viewing the total flights and passengers (that chart coming later on). As seen here, most cities experienced a slight loss in density of average passengers per flight. Even though flight and passenger amounts are on an upward trend, the discrepancy can be attributed to company policy and market adjustments. Overselling of flights helps keep the margins down and ensures peak profibility with the changing market.
+From the information available, it is not explicitly obvious that the events of September 11 had any direct bearing on TOTAL travel trends, beyond the obvious temporary lull. As seen here, most cities experienced a slight loss in density of average passengers per flight. Even though flight and passenger amounts are on an upward trend, the discrepancy can be attributed to company policy and market adjustments. Overselling of flights helps keep the margins down and ensures peak profibility with the changing market.
+
 Many changes happened in light of Sept 11, 2001. The introduction of the TSA and higher security protocols can and did have an affect on overall flights at first. 
 As time progressed and the public became used to the "new normal", flights and passenger totals began to climb again.
 
-
 <iframe width="900" height="460" frameborder="0" scrolling="no" src="//plotly.com/~paul.teeter/1.embed"></iframe>
 
-An interesting point of note here: While major destinations like Las Vegas, NV, Orlando, FL or Honolulu, HI are more "destinations" rather than connections, their totals of average passengers per flight is noticably higher than major hubs like Dallas, TX or Atlanta, GA.
-This is easily understood because of their large draw, but limited availability for flights -- especially Honolulu. The airlines make sure they sell out the flight to make such a long, expensive trip. No empty seats allowed!
+An interesting point of note here: While major destinations like Las Vegas NV, Orlando FL or Honolulu HI are more "destinations" rather than connections, their totals of average passengers per flight is noticably higher than major hubs like Dallas, TX or Atlanta, GA.
+This is easily understood because of their large draw, but limited availability for flights -- especially Honolulu. The airlines make sure they sell out the flight to make such a long, expensive trip. No empty seats, please!
 
 <h4>New York</h4>
-New York was forever changed by the events of Sept 11. Not only did the skyline change drastically, the sense of unity and compassion that overflowed in the city's population was palpable. All across the nation, Americans mourned the loss of life, the wanton destruction of our greatest asset. Flights were grounded across the country (even globally, in some cases), and there was a major disruption of commercial aviation. 
+New York was forever changed by the events of Sept 11. Not only did the skyline change drastically, the sense of unity and compassion that overflowed in the city's population was palpable. All across the nation, Americans mourned the loss of life-- the wanton destruction of our greatest asset. Flights were grounded across the country (even globally, in some cases), and there was a major disruption of commercial aviation. 
 Just a simple look at the following graph shows the drastic change around 9/11/2001. It took about a full year to attain the levels of Pre 9/11 flight totals.
 The following graph displays flights from ALL airports in NYC from 2000-2005
 
@@ -62,7 +62,7 @@ Obviously, the immediate affects of Sept 11 were apparent, even without the data
 The reason you cannot find a 0 number on this graph is because of the way the data was recorded. Each observation was only recorded as a Year and Month, so thats as far as the data can break down. I was disappointed to find I couldn't specifically pinpoint the two days US domestic flights were grounded, but I still found some use in organizing the data in the way that I did.
 
 When factoring in the other major airport servicing the NY Metro area (Newark Liberty Int'l), the totals of course go up, but the trend is essentially the same. It took about a year to fully recover back to Pre 9/11 flights.
-Below, the graph shows the three major airports servicing NYC over the span of 20 years.
+The graph below shows the three major airports servicing NYC over the span of 20 years.
 
 <b>Black:</b> Newark Liberty Int'l<br />
 <b>Turquoise:</b> LaGuardia Airport<br />
