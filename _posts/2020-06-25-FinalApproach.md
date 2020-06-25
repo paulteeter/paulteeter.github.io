@@ -67,12 +67,10 @@ Obviously, the immediate affects of Sept 11 were apparent, even without the data
 When factoring in the other major airport servicing the NY Metro area (Newark Liberty Int'l), the totals of course go up, but the trend is essentially the same. It took about a year to fully recover back to Pre 9/11 flights.
 Below, the graph shows the three major airports servicing NYC over the span of 20 years.
 
-<h6>Black:</h6> Newark Liberty Int'l<br />
-<h6>Turquoise:</h6> LaGuardia Airport<br />
-<h6>Purple:</h6> JFK Int'l<br />
-<div id="wrapper">
- <div class="container">
-	<img class="image" src="/assets/img/metroNYC_allyears.png" alt="Metro NYC Airports 1990-2009" width="1100" height="600">
- </div>
-</div>
+<b>Black:</b> Newark Liberty Int'l<br />
+<b>Turquoise:</b> LaGuardia Airport<br />
+<b>Purple:</b> JFK Int'l<br />
+<figure>
+	<img src="/assets/img/metroNYC_allyears.png" alt="Metro NYC Airports 1990-2009 " title="MetroNYC Airports" width="900" height="600">
+</figure>
 
