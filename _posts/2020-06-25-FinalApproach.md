@@ -54,11 +54,12 @@ This is easily understood because of their large draw, but limited availability 
 <h4>New York</h4>
 New York was forever changed by the events of Sept 11. Not only did the skyline change drastically, the sense of unity and compassion that overflowed in the city's population was palpable. All across the nation, Americans mourned the loss of life, the wanton destruction of our greatest asset. Flights were grounded across the country (even globally, in some cases), and there was a major disruption of commercial aviation. 
 Just a simple look at the following graph shows the drastic change around 9/11/2001. It took about a full year to attain the levels of Pre 9/11 flight totals.
-The following graph displays flights from ALL airports in NY State from 2000-2005
+The following graph displays flights from ALL airports in NYC from 2000-2005
 
 <img class="image" src="/assets/img/ny2000_2004.png" alt="New York Flights 2000-2004" width="1200" height="500">
 
-Obviously, the immediate affects of Sept 11 were apparent, even without the data to display, but this graph shows the extent across the state as it related to commercial flights. Even though flights were grounded in the US for a total of two days (except emergency medical and approved military flights), there were 10 days of flights before, as well as 18 days of flights after limited service began again. This is reflected in the non-zero low point for september, 2001, totalling 13,298 total flights for the month of September from New York's JFK and LaGuardia airports.
+Obviously, the immediate affects of Sept 11 were apparent, even without the data to display, but this graph shows the extent as it related to commercial flights. Even though flights were grounded in the US for a total of two days (except emergency medical and approved military flights), there were 10 days of flights before, as well as 18 days of flights after limited service began again. This is reflected in the non-zero low point for september, 2001, totalling 13,298 total flights for the month of September from New York's JFK and LaGuardia airports.
+The reason you cannot find a 0 number on this graph is because of the way the data was recorded. Each observation was only recorded as a Year and Month, so thats as far as the data can break down. I was disappointed to find I couldn't specifically pinpoint the two days US domestic flights were grounded, but I still found some use in organizing the data in the way that I did.
 
 When factoring in the other major airport servicing the NY Metro area (Newark Liberty Int'l), the totals of course go up, but the trend is essentially the same. It took about a year to fully recover back to Pre 9/11 flights.
 Below, the graph shows the three major airports servicing NYC over the span of 20 years.
@@ -67,4 +68,14 @@ Below, the graph shows the three major airports servicing NYC over the span of 2
 <b>Turquoise:</b> LaGuardia Airport<br />
 <b>Purple:</b> JFK Int'l<br />
 <img src="/assets/img/metroNYC_allyears.png" alt="Metro NYC Airports 1990-2009 " title="MetroNYC Airports" width="1200" height="500">
+
+<h4> Final Look</h4>
+After spending all too much time trying to figure out the best way to organize the data, I settled on a very broad approach to displaying the overall trend of the flights and passengers domestically across the 20 year span. Breaking down each metric by the total for a whole year gives a much cleaner look at the overall trend, without the <a href="https://ibb.co/rxXZNxQ">squiggly</a> lines inherent in high datapoint plotting.
+As I had mentioned above, an interesting thing took place around February, 2002. The total flights grew at a much slower rate than the total passengers. This is probably due to overbooking of flights nationally to make sure flights were carrying more passengers per flight. More passengers == more money. Ultimately, most business decisions come down to profitability for shareholders, so even though travelers were still increasing month upon month, the constraints imposed on airlines and airports required changes in how flights and passengers were scheduled. Of course, it is hard to know when an influx of passengers will come, so there is a delay to create new flight supply to meet the demand of increasing ridership.
+
+<iframe width="800" height="700" frameborder="0" scrolling="no" src="//plotly.com/~paul.teeter/5.embed"></iframe>
+
+Also noticable from this graph was the economic downturn and subsequent recession beginning in 2007. Unfortunately, the dataset is only extended to 2009, so no further information can be seen, but it would be quite interesting to see how the recession affected flight trends. Of course, the lasting effects of economic recession are probably more noticable and far-reaching than a singular event, bad as it was. Perhaps another day I will merge a dataset in to expand on this graph and see the extent to which the airlines were affected by the recession. 
+
+Of course, this is also an issue best explored elsewhere, but our aging infrastructure and airport system is not equipped to handle the amount of traffic experienced on a daily basis across the US. This is why wait times are ever growing and a slow pushback/taxi/waiting on the tarmac is experienced more often. I suggest you grab a pillow and your favorite book, you're in for a long wait!
 
