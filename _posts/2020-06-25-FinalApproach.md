@@ -77,8 +77,8 @@ An interesting thing took place around February, 2002: the total passengers grew
 
 Also noticeable from this graph was the economic downturn and subsequent recession beginning in 2007. The decline from the recession is about as precipitous as the fallout from September 11. Unfortunately, the dataset is only extended to 2009, so no further information can be seen, but it would be quite interesting to see how the recession affected flight trends. Of course, the lasting effects of economic recession are probably more noticeable and far-reaching than a singular event, bad as it was. Perhaps another day I will merge a dataset in to expand on this graph and see the extent to which the airlines were affected by the recession. 
 
-Of course, this is also an issue best explored elsewhere, but our aging infrastructure and airport system is not equipped to handle the amount of traffic experienced on a daily basis across the US. This is why wait times are ever growing and a slow pushback/taxi/waiting on the tarmac is experienced more often. I suggest you grab a pillow and your favorite book, you're probably in for a long wait!
-
 <h4>Conclusion</h4>
 Despite the shock of using an airplane as a weapon and the expected lasting result of that heinous act, I found very little disruption overall to domestic flight patterns. More and more passengers were flying and more flights were scheduled. For such a devastating event, it had relatively little impact on the flight amounts themselves, while haveing an outsized impact on other travel metrics, namely time and customer satisfaction. It is becoming increasingly difficult to air travel today, with the restrictions only getting more severe and burdensome. 
+
+Of course, this is also an issue best explored elsewhere, but our aging infrastructure and airport system is not equipped to handle the amount of traffic experienced on a daily basis across the US. This is why wait times are ever growing and a slow pushback/taxi/waiting on the tarmac is experienced more often. I suggest you grab a pillow and your favorite book, you're probably in for a long wait!
 
