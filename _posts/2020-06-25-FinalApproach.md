@@ -56,11 +56,7 @@ New York was forever changed by the events of Sept 11. Not only did the skyline 
 Just a simple look at the following graph shows the drastic change around 9/11/2001. It took about a full year to attain the levels of Pre 9/11 flight totals.
 The following graph displays flights from ALL airports in NY State from 2000-2005
 
-<div id="wrapper">
- <div class="container">
-	<img class="image" src="/assets/img/ny2000_2004.png" alt="New York Flights 2000-2004" width="1100" height="600">
- </div>
-</div>
+<img class="image" src="/assets/img/ny2000_2004.png" alt="New York Flights 2000-2004" width="1200" height="500">
 
 Obviously, the immediate affects of Sept 11 were apparent, even without the data to display, but this graph shows the extent across the state as it related to commercial flights. Even though flights were grounded in the US for a total of two days (except emergency medical and approved military flights), there were 10 days of flights before, as well as 18 days of flights after limited service began again. This is reflected in the non-zero low point for september, 2001, totalling 13,298 total flights for the month of September from New York's JFK and LaGuardia airports.
 
@@ -70,7 +66,5 @@ Below, the graph shows the three major airports servicing NYC over the span of 2
 <b>Black:</b> Newark Liberty Int'l<br />
 <b>Turquoise:</b> LaGuardia Airport<br />
 <b>Purple:</b> JFK Int'l<br />
-<figure>
-	<img src="/assets/img/metroNYC_allyears.png" alt="Metro NYC Airports 1990-2009 " title="MetroNYC Airports" width="900" height="600">
-</figure>
+<img src="/assets/img/metroNYC_allyears.png" alt="Metro NYC Airports 1990-2009 " title="MetroNYC Airports" width="1200" height="500">
 
