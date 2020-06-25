@@ -72,7 +72,7 @@ Turquoise: LaGuardia Airport
 Purple: JFK Int'l</h5>
 <div id="wrapper">
  <div class="container">
-	<img class="image" src="/assets/img/metroNYC_allyears" alt="New York Flights 2000-2004" width="800" height="500">
+	<img class="image" src="/assets/img/metroNYC_allyears.png" alt="Metro NYC Airports 1990-2009" width="800" height="500">
  </div>
 </div>
 
