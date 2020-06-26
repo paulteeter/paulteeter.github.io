@@ -82,3 +82,6 @@ Despite the shock of using an airplane as a weapon and the expected lasting resu
 
 Of course, this is also an issue best explored elsewhere, but our aging infrastructure and airport system is not equipped to handle the amount of traffic experienced on a daily basis across the US. This is why wait times are ever growing and a slow pushback/taxi/waiting on the tarmac is experienced more often. I suggest you grab a pillow and your favorite book, you're probably in for a long wait!
 
+<br />
+<br />
+<a href="https://colab.research.google.com/drive/1Yu5MtirIZV2QOlm8I51ZAn0NvRAP9Yut?usp=sharing">Colab Notebook for this project</a>
