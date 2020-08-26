@@ -19,7 +19,7 @@ has been an unusually intense fire season, with locals dubbing it the "Black Sum
 Standard practice would dictate that I turn on the TV or favorite weather forecast site and wait to see if they were correct.
 Short of installing a dopplar radar or high-tech satellite infrastructure, I decided to implement a few different Machine Learning models to see how well I can predict rain for the next day.
 
-Using a history of weather readings from around Australia (*49 different locations, to be exact*) from 2007 through 2017, I determined there was a base rate of 70% for days with no rain, and about 30% of days with rain. Some rainy days had little to no rain (less than .2 mm) and others had quite a bit of rain ( more than 250 mm). With this baseline metric, I decided to answer the question: **Will it rain tomorrow?**
+Using a history of weather readings from around Australia (*49 different locations, to be exact*) from 2007 through 2017, I determined there was a base rate of 77.5% for days with no rain, and about 22.5% of days with rain. Some rainy days had little to no rain (less than .2 mm) and others had quite a bit of rain ( more than 250 mm). With this baseline metric, I decided to answer the question: **Will it rain tomorrow?**
 
 Because my question is a yes or no answer, my model would be a classification model rather than a regression model. The *target* I'm looking for the model to classify is whether its prediction is **Yes** it will rain, or **No** it will not.
 
@@ -28,12 +28,17 @@ Although this dataset was relatively clean, there were certain features which ne
 
 Because most of the data was time-series sequential, and my target was only a days difference away, I could shift the data one day and create a classification target that was capable of being predicted by my models. 
 
+The original dataset already had a target created, called *RainTomorrow*, which was based on the feature *RISK_MM*. The original dataset had a threshold of 1.0mm of rain determing whether it was classified as rain or not. But this created imbalanced classes (77/23%). 
+
 <h4>Target</h4>
-Each day's observation as a "Rainfall" amount in millimeters. By setting my threshold to .3 mm, I found I could balance my classes 
+Each day's observation has a "Rainfall" amount in millimeters. By setting my threshold to .2 mm, I found I could balance my classes a little more evenly, while still accounting for days when it was misty or drizzled a tiny amount to not be classified as "rain". This left me with a baseline classification score of **64.1% No, 35.9% Yes**
+
 
 <h4>Time-Series Challenges</h4>
 Normally, time-series data requires extra care to account for what they call "lagging variables". The variables (cloud cover, dropping barometric pressure, etc) are all indicators of rain, but sometimes rain is not immediate. Because of the nature of time-series data, it is important to check for cyclic trends or seasonality when figuring how to forecast. 
 
 Fortunately for me, the problem I set out to solve was not one of long term forecasting. My question was simple: Given the variables of any given day, will it rain the following day?
-This can
+
+
+
 
