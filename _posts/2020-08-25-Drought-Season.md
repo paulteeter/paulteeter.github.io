@@ -11,7 +11,7 @@ comments: true
 "Rain Rain, Go away..."
 
 It's an innocuous childhood favorite for many, but the reality in Australia proves how dangerous and deadly a drought can be. Large parts of Australia are often
-subject to long periods of no rain. The arrid, hot climate can contribute drastically to massive wildfires, as we have observed over the last year. 2019-2020
+subject to long periods of no rain. The arid, hot climate can contribute drastically to massive wildfires, as we have observed over the last year. 2019-2020
 has been an unusually intense fire season, with locals dubbing it the "Black Summer" because of the volume of smoke filling the skies.
 
 **How predictable is rain in Australia?**
