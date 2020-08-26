@@ -23,15 +23,15 @@ Using a history of weather readings from around Australia (*49 different locatio
 
 Because my question is a yes or no answer, my model would be a classification model rather than a regression model. The *target* I'm looking for the model to classify is whether its prediction is **Yes** it will rain, or **No** it will not.
 
-<h4>Cleaning and Wrangling</h4>
+<h2>Cleaning and Wrangling</h2>
 Although this dataset was relatively clean, there were certain features which needed to be dealt with in order to feed it into a machine learning model. Many features had missing data, but there was quite a few that actually had about *half* of their data missing. I ended up dropping those features altogether, because trying to impute those missing values would prove to be too cumbersome. Other features, which weren't so void of true data were imputed using a "most frequent" strategy. 
 
 Because most of the data was time-series sequential, and my target was only a days difference away, I could shift the data one day and create a classification target that was capable of being predicted by my models. 
 
-<h2>Target</h2>
+<h4>Target</h4>
 Each day's observation as a "Rainfall" amount in millimeters. By setting my threshold to .3 mm, I found I could balance my classes 
 
-<h2>Time-Series Challenges</h2>
+<h4>Time-Series Challenges</h4>
 Normally, time-series data requires extra care to account for what they call "lagging variables". The variables (cloud cover, dropping barometric pressure, etc) are all indicators of rain, but sometimes rain is not immediate. Because of the nature of time-series data, it is important to check for cyclic trends or seasonality when figuring how to forecast. 
 
 Fortunately for me, the problem I set out to solve was not one of long term forecasting. My question was simple: Given the variables of any given day, will it rain the following day?
