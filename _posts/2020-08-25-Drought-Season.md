@@ -39,6 +39,34 @@ Normally, time-series data requires extra care to account for what they call "la
 
 Fortunately for me, the problem I set out to solve was not one of long term forecasting. My question was simple: Given the variables of any given day, will it rain the following day?
 
+This problem is easily solved through shifting the data 1 day to adjust for the lagged variable. The new target was based on the following day's "Rainfall" amount.
+
+<h5>Data Leakage</h5>
+There were a few features that had potential to create leakage into the model. Obviously my target feature was removed from the training data, but the shifted variable *'RISK_MM'* and the *'Rainfall'* amount had opportunity to leak into the model and skew the outcome and were removed from the training data as well.
+
+<h2>Modeling</h2>
+
+For a binary classification problem, I chose to fit three different models to see how each performed. My first model was a Decision Tree Classifier. While it made an improvement over the baseline classification, it was not the best performing model. With a validation accuracy of **74.87%**, the model is useful but not great.
+
+For my second model, I chose a Random Forest Classifier. This model had a slight improvement over the standard Decision Tree, with a validation accuracy of **75.93%**. This was the best performing model, which I used later to predict on my test data.
+
+I also chose to fit a Logistic Regression model, so I could see how a linear model would perform in this task. This was the worst performing model, with a validation accuracy of only **72.91%**. 
+
+Due to overfitting concerns, I refrained from too much hyperparameter tuning to keep my models as generalized as possible. Mostly the tuning was changing the number of iterations, the maximum depth of the model (from root to leaf), and the minimum samples per leaf. Depsite each model only having marginal improvements over the baseline score, I decided not to push too hard in fear that I would overfit on my training data and have a worse accuracy for my testing data.
 
 
+<h2>Final Test Scores</h2>
+
+After determining that the RandomForest model performed the best, I predicted the outcomes on the training data and checked its accuracy. The final test data accuracy was **74.35%**, which is quite a surprise. I figured my model would be a little better at predicting, but that it was relatively low is indicitive of how difficult it is to predict rain. The weather is notoriously difficult to predict, even with millions of dollars in satellite equipment.
+
+
+<h4>Explaining Model Performance</h4>
+
+As seen below in the Partial Dependence Plot with an isolated feature, the variation amongst the single feature is so great, its not hard to imagine why the model has a hard time predicting with great accuracy. This feature (Temperature at 3PM) has the most positive impact on the models ability to classify properly, but even with its positive trend, the variation is so great, its quite apparent the model would have a difficult time accurately predicting whether it would rain tomorrow or not.
+<br /><br />
+<img src="https://netart.us/wp-content/uploads/2014/03/Missing-Brain-on-Milk-Carton-Coloring-Page.jpg"></img>
+
+Another way to see how each feature had impact on the models output is with this handy Shapley Value Summary Plot: <br />
+
+<img src="https://netart.us/wp-content/uploads/2014/03/Missing-Brain-on-Milk-Carton-Coloring-Page.jpg"></img>
 
