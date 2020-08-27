@@ -64,9 +64,13 @@ After determining that the RandomForest model performed the best, I predicted th
 
 As seen below in the Partial Dependence Plot with an isolated feature, the variation amongst the single feature is so great, its not hard to imagine why the model has a hard time predicting with great accuracy. This feature (Temperature at 3PM) has the most positive impact on the models ability to classify properly, but even with its positive trend, the variation is so great, its quite apparent the model would have a difficult time accurately predicting whether it would rain tomorrow or not.
 <br /><br />
-<img src="https://netart.us/wp-content/uploads/2014/03/Missing-Brain-on-Milk-Carton-Coloring-Page.jpg"></img>
+<img class="image" src="assets/img/PDP_Isolate.png" alt="PDP Isolate" />
 
 Another way to see how each feature had impact on the models output is with this handy Shapley Value Summary Plot: <br />
 
-<img src="https://netart.us/wp-content/uploads/2014/03/Missing-Brain-on-Milk-Carton-Coloring-Page.jpg"></img>
+<img class="image" src="assets/img/shap_summary.png" alt="Shapley Value Summary Plot" />
+
+Here is the same shapley plot for an individual observation, to see how each feature affected the model's probability.
+
+<img class="image" src="assets/img/ind_shap_plot.png" alt="Shapley Forceplot for Individual Observation" />
 
