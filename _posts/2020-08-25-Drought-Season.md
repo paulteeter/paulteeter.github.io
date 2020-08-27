@@ -31,7 +31,7 @@ Because most of the data was time-series sequential, and my target was only a da
 The original dataset already had a target created, called *RainTomorrow*, which was based on the feature *RISK_MM*. The original dataset had a threshold of 1.0mm of rain determing whether it was classified as rain or not. But this created imbalanced classes (77/23%). 
 
 <h4>Target</h4>
-Each day's observation has a "Rainfall" amount in millimeters. By setting my threshold to .2 mm, I found I could balance my classes a little more evenly, while still accounting for days when it was misty or drizzled a tiny amount to not be classified as "rain". This left me with a baseline classification score of **64.1% No, 35.9% Yes**
+Each day's observation has a "Rainfall" amount in millimeters. By setting my threshold to .2 mm, I found I could balance my classes a little more evenly, while still accounting for days when it was misty or drizzled a tiny amount to not be classified as "rain". This new feature target '*ExpectRain*' had a baseline classification score of **64.1% No**,  **35.9% Yes**. 
 
 
 <h4>Time-Series Challenges</h4>
@@ -41,7 +41,7 @@ Fortunately for me, the problem I set out to solve was not one of long term fore
 
 This problem is easily solved through shifting the data 1 day to adjust for the lagged variable. The new target was based on the following day's "Rainfall" amount.
 
-<h5>Data Leakage</h5>
+<h4>Data Leakage</h4>
 There were a few features that had potential to create leakage into the model. Obviously my target feature was removed from the training data, but the shifted variable *'RISK_MM'* and the *'Rainfall'* amount had opportunity to leak into the model and skew the outcome and were removed from the training data as well.
 
 <h2>Modeling</h2>
