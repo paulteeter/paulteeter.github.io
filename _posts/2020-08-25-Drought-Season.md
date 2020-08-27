@@ -59,6 +59,9 @@ Due to overfitting concerns, I refrained from too much hyperparameter tuning to 
 
 After determining that the RandomForest model performed the best, I predicted the outcomes on the training data and checked its accuracy. The final test data accuracy was **74.35%**, which is quite a surprise. I figured my model would be a little better at predicting, but that it was relatively low is indicitive of how difficult it is to predict rain and that the training data was overfit.
 
+Out of curiosity, I also predicted on my test data using the more simple Decision Tree Classifier, which actually had a **better** test score. This is probably due to the simplicity of the model, it is less prone to overfit than a RandomForest model which has been tuned.
+The Decision Tree Classifier had an accuracy score of **74.50%**, marginally better than the RandomForest model.
+
 
 <h4>Explaining Model Performance</h4>
 
