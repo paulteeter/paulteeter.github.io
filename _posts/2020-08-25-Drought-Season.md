@@ -76,9 +76,13 @@ Another way to see how each feature had impact on the models output is with this
       <img class="image" src="/assets/img/shap_summary.png" alt="Shapley Value Summary Plot" />
   </div>
 </div>
+Its quite apparent that most of the features have a relatively minor impact on the model's decision from the baseline guess, but a few features have a little bit more impact, both positive and negative, depending on how the models decisions are being structured.
+
+
 Here is the same shapley plot for an individual observation, to see how each feature affected the model's probability.
 <div id="wrapper">
   <div class="container">
       <img class="image" src="/assets/img/ind_shap_plot.png" alt="Shapley Forceplot for Individual Observation" />
   </div>
 </div>
+In this single obervation, the model had a 90% probability of classifying this properly, because of the features in <font color=#ff0000>**RED**</font> that increased the models output probability from the baseline of 64% to 90%
