@@ -62,7 +62,8 @@ After determining that the RandomForest model performed the best, I predicted th
 
 <h4>Explaining Model Performance</h4>
 
-As seen below in the Partial Dependence Plot with an isolated feature, the variation amongst the single feature is so great, its not hard to imagine why the model has a hard time predicting with great accuracy. This feature (Temperature at 3PM) has the most positive impact on the models ability to classify properly, but even with its positive trend, the variation is so great, its quite apparent the model would have a difficult time accurately predicting whether it would rain tomorrow or not.
+As seen below in the Partial Dependence Plot with an isolated feature, the variation amongst the single feature is so great, its not hard to imagine why the model has a hard time predicting with great accuracy. This feature (Temperature at 3PM) has the most positive impact on the models ability to classify properly, but even with its positive trend, the variation is so great, its quite apparent the model would have a difficult time accurately predicting whether it would rain tomorrow or not. In this PDP isolate, at each value on the X Axis, all of the observations for the other inputs are evaluated for the model and the output is averaged, giving us the highlighted line.
+Take note that this is not a direct coefficient on the feature at a given value, but rather a representation of how all of the other inputs affect the target variable in the model.
 <br /><br />
 <div id="wrapper">
   <div class="container">
@@ -85,4 +86,4 @@ Here is the same shapley plot for an individual observation, to see how each fea
       <img class="image" src="/assets/img/ind_shap_plot.png" alt="Shapley Forceplot for Individual Observation" />
   </div>
 </div>
-In this single obervation, the model had a 90% probability of classifying this properly, because of the features in <font color=#ff0000>**RED**</font> that increased the models output probability from the baseline of 64% to 90%
+In this single obervation, the model had a 90% probability of classifying this properly, because of the features in **RED** that increased the models output probability from the baseline of 64% to 90%.
