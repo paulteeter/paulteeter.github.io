@@ -57,7 +57,7 @@ Due to overfitting concerns, I refrained from too much hyperparameter tuning to 
 
 <h2>Final Test Scores</h2>
 
-After determining that the RandomForest model performed the best, I predicted the outcomes on the training data and checked its accuracy. The final test data accuracy was **74.35%**, which is quite a surprise. I figured my model would be a little better at predicting, but that it was relatively low is indicitive of how difficult it is to predict rain. The weather is notoriously difficult to predict, even with millions of dollars in satellite equipment.
+After determining that the RandomForest model performed the best, I predicted the outcomes on the training data and checked its accuracy. The final test data accuracy was **74.35%**, which is quite a surprise. I figured my model would be a little better at predicting, but that it was relatively low is indicitive of how difficult it is to predict rain and that the training data was overfit.
 
 
 <h4>Explaining Model Performance</h4>
